@@ -1,0 +1,60 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "env NODE_ENV=development webpack-dev-server --inline --hot",
+    "build": "env NODE_ENV=production webpack",
+    "lint": "standard",
+    "deploy": "gh-pages -d dist"
+  },
+  "engines": {
+    "node": "8.12.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^6.3.3",
+    "bespoke": "^1.1.0",
+    "bespoke-backdrop": "^1.0.0",
+    "bespoke-bullets": "^1.1.0",
+    "bespoke-hash": "^1.0.2",
+    "bespoke-keys": "^1.1.0",
+    "bespoke-progress": "^1.0.0",
+    "bespoke-scale": "^1.0.1",
+    "bespoke-theme-build-wars": "^1.0.1",
+    "bespoke-touch": "^1.0.0",
+    "browserify": "^17.0.0",
+    "clean-webpack-plugin": "^0.1.8",
+    "css-loader": "^0.23.1",
+    "csswring": "^4.2.1",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-stylus": "^2.7.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-util": "^3.0.8",
+    "html-webpack-plugin": "^2.9.0",
+    "jade": "^1.11.0",
+    "jade-loader": "^0.8.0",
+    "node-sass": "^4.5.3",
+    "path": "^0.12.7",
+    "postcss-loader": "^0.8.1",
+    "prismjs": "^1.4.1",
+    "resolve-url-loader": "^1.4.3",
+    "sass-loader": "^3.1.2",
+    "serve": "^11.3.2",
+    "style-loader": "^0.13.0",
+    "through": "^2.3.8",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0",
+    "webpack": "^1.12.14"
+  },
+  "devDependencies": {
+    "gh-pages": "^0.10.0",
+    "gulp-serve": "^1.4.0",
+    "standard": "^6.0.7",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
